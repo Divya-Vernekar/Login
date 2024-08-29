@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: grid;
+    place-items: center;
+    background-image: url(https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-56228.jpg?t=st=1724933963~exp=1724937563~hmac=abf32d9fbd6aea57ec91bcd0ac754a994b92ede62260f653269cb1ff571aa82e&w=996);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    /* color: rgb(223, 155, 52); */
+    margin-top: 20vh;
+    margin-bottom: 30px;
+    color:red;
+
+}
+input{
+    font-size: 1rem;
+    width: 300px;
+    padding: 6px 2px; 
+    margin: 10px 0 10px 0;
+}
+.sub{
+    background-color:rgb(100, 223, 52);
+    cursor: pointer;
+}
+
+form{
+    /* margin-top: 20vh; */
+    text-align: center;
+    border: 5px solid transparent;
+    padding: 20px;
+    background-color: transparent;
+}
